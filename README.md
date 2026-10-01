@@ -3,8 +3,8 @@
 **Memory pressure protection for developers who run more than one heavy build on a Mac.**
 
 <p align="center">
-  <a href="https://luisroquette.github.io/memoryguard/"><img src="https://img.shields.io/badge/product%20page-open-0C8F55?style=flat-square" alt="Open the MemoryGuard product page" /></a>
-  <a href="https://github.com/luisroquette/memoryguard/releases/latest"><img src="https://img.shields.io/badge/version-1.3.1-0A7AFF?style=flat-square" alt="MemoryGuard version 1.3.1" /></a>
+  <a href="https://luisroquette-labs.github.io/memoryguard/"><img src="https://img.shields.io/badge/product%20page-open-0C8F55?style=flat-square" alt="Open the MemoryGuard product page" /></a>
+  <a href="https://github.com/luisroquette-labs/memoryguard/releases/latest"><img src="https://img.shields.io/badge/version-1.3.1-0A7AFF?style=flat-square" alt="MemoryGuard version 1.3.1" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-161B22?style=flat-square" alt="MIT license" /></a>
   <img src="https://img.shields.io/badge/macOS-14%2B-161B22?style=flat-square" alt="macOS 14 or later" />
 </p>
@@ -54,7 +54,7 @@ A watchdog also resumes the group if MemoryGuard exits unexpectedly.
 
 ## Install
 
-Download the latest free build from [Releases](https://github.com/luisroquette/memoryguard/releases/latest).
+Download the latest free build from [Releases](https://github.com/luisroquette-labs/memoryguard/releases/latest).
 
 ```bash
 # After unzipping and moving MemoryGuard.app to /Applications:
@@ -102,7 +102,7 @@ process content.
 ## Build from source
 
 ```bash
-git clone https://github.com/luisroquette/memoryguard.git
+git clone https://github.com/luisroquette-labs/memoryguard.git
 cd memoryguard
 swift test
 ./Scripts/make-app.sh
@@ -126,5 +126,5 @@ dependencies.
 ---
 
 <p align="center">
-  <strong>A free, local-first utility from <a href="https://github.com/luisroquette/RocketLabs">RocketLabs</a>.</strong>
+  <strong>A free, local-first utility from <a href="https://github.com/luisroquette-labs/RocketLabs">RocketLabs</a>.</strong>
 </p>
