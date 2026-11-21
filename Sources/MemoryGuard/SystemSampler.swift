@@ -60,8 +60,6 @@ enum SystemSampler {
             process.standardOutput = pipe
             process.standardError = FileHandle.nullDevice
             try process.run()
-            // Drain while the child is alive. Reading only after termination can
-            // deadlock when `ps` writes more than the pipe buffer.
             let data = pipe.fileHandleForReading.readDataToEndOfFile()
             process.waitUntilExit()
             guard process.terminationStatus == 0 else {

@@ -1,7 +1,6 @@
 import Darwin
 import Foundation
 
-// Every mutable collection is protected by `lock`; signals operate only on copied IDs.
 final class BuildController: @unchecked Sendable {
     private let lock = NSLock()
     private var paused: Set<Int32> = []
