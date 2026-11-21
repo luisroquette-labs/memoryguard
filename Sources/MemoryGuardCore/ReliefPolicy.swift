@@ -59,7 +59,6 @@ public struct ReliefPolicy: Sendable {
             )
         }
 
-        // Pause the newest build. The older build can finish and free memory sooner.
         guard let newest = candidates.min(by: { $0.elapsedSeconds < $1.elapsedSeconds }) else {
             return ReliefDecision(action: .none, reason: "Nenhum build seguro para pausar.")
         }
